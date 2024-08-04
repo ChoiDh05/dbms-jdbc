@@ -30,3 +30,7 @@ CREATE TABLE TBL_POST(
 	CONSTRAINT FK_POST_MEMBER FOREIGN KEY(MEMBER_ID)
 	REFERENCES TBL_MEMBER (ID)
 );
+
+
+/***************************************************************************/
+
